@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+
+    <div class="main-section">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p class="para">Thank you for taking the time to help us improve
+            the platform
+        </p>
+
+        <div class="container">
+            <form action="">
+
+                    Name: <input type="text" name="name" id="name"
+                    placeholder="Enter Your Name" required><br>
+                
+               
+            
+                    Email: <input type="email" name="email" id="email"
+                    placeholder="enter your email" required><br>
+                
+    
+                    Age: <input type="number" name="age" id="age"
+                    placeholder="Enter Your Age" required>   
+                 
+                 <div class="select">
+                    Which option best describe your current role?
+                    <select name="select-role" id="select" required>
+                        <option value="" disabled selected hidden>Select your Profession</option> 
+                        <option value="student">Student</option>
+                        <option value="fulltime job">Full Time Job</option>
+                        <option value="learner">Full Time Learner</option>
+                        <option value="not to say">Prefer Not to Say</option>
+                        <option value="other">Other</option>
+                     </select> 
+                 </div>
+                
+                 <div class="recommand">
+                    <p>Would you recommand freeCodeCamp to a friend?</p>
+                    <div class="radio-btns">
+                        <input type="radio" name="radio" class="radio-btn" required><span>Definitely</span> <br>
+                        <input type="radio" name="radio" class="radio-btn" required><span>May be</span> <br>
+                        <input type="radio" name="radio" Class="radio-btn" required><span>Not Sure</span>
+                    </div>
+                       
+                      
+                 </div>
+ 
+                 <div class="feature">
+                    What is your favorite feature of freeCodeCamp?
+                    <select name="select-feature" id="feature">
+                       <option value="" disabled selected hidden>select an option</option>
+                       <option value="challenges">Challenges</option>
+                       <option value="Projects">Projects</option>
+                       <option value="Community">Community</option>
+                       <option value="Open-source">Open Source</option>
+                    </select>
+                 </div>
+
+                 <div class="improved">
+                   <p>what would you like to do improved? (you can check all)</p> 
+                    <input type="checkbox" class="checkbox"><span>Front-end Projects</span> <br>
+                    <input type="checkbox" class="checkbox"><span>Back-end Projects</span><br>
+                    <input type="checkbox" class="checkbox"><span>Data Visualization</span><br>
+                    <input type="checkbox" class="checkbox"><span>Challenges</span><br>
+                    <input type="checkbox" class="checkbox"><span>Open Source Community</span><br>
+                    <input type="checkbox" class="checkbox"><span>Gitter Help Rooms</span><br>
+                    <input type="checkbox" class="checkbox"><span>Videos</span> <br>
+                    <input type="checkbox" class="checkbox"><span>City Meetups</span><br>
+                    <input type="checkbox" class="checkbox"><span>Wiki</span><br>
+                    <input type="checkbox" class="checkbox"><span>Forum</span><br>
+                    <input type="checkbox" class="checkbox"><span>Additional Course</span><br>
+                 </div>
+
+                 <div class="comment">
+                    Any comment or suggestion?<br>
+                    <textarea name="textarea" id="textarea">
+                </textarea>
+                 </div>
+                
+
+                    
+                    <input type="submit" value="Submit" id="submit-btn">
+    
+                 
+            </form>
+ 
+            
+        </div>
+    </div>
+       
+        
+    
+</body>
+</html>
